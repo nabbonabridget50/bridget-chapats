@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Watch our cooking videos and listen to our kitchen sounds at Bridget Delicious Chapats.">
+    <title>Media | Bridget Delicious Chapats</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Accessibility Skip Link -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header & Navigation -->
+    <header>
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="Bridget Delicious Chapats logo" class="logo-img">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="media.html" class="active">Media</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <section class="page-header">
+            <h2>Media Center</h2>
+            <p>Watch how we prepare our food and listen to the sounds of our kitchen.</p>
+        </section>
+
+        <!-- Video Section -->
+        <section class="card">
+            <h3>How We Prepare Our Food</h3>
+            
+            <!-- Video 1 (Using prep.mp4) -->
+            <div class="video-container">
+                <video controls>
+                    <source src="images/prep.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <p class="media-description"><strong>Video Description:</strong> Watch our chefs carefully preparing the dough and fresh ingredients for our signature chapati.</p>
+            
+            <br>
+
+            <!-- Video 2 (Using pizz.mp4) -->
+            <div class="video-container">
+                <video controls>
+                    <source src="images/pizz.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <p class="media-description"><strong>Video Description:</strong> A close-up view of our delicious pizzas being prepared and baked to perfection.</p>
+        </section>
+
+        <!-- Audio Section -->
+        <section class="card">
+            <h3>Listen to Our Kitchen Ambience</h3>
+            <p>Experience the sounds of a busy, happy kitchen.</p>
+            
+            <!-- Audio (Using cookin.mp3) -->
+            <audio controls class="audio-player">
+                <source src="images/cookin.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            
+            <!-- Text Alternative (Required for accessibility) -->
+            <p class="media-description"><strong>Text Transcript:</strong> [The audio begins with the sound of sizzling oil in a hot pan. In the background, there is the rhythmic chopping of vegetables on a wooden cutting board, followed by the sound of dough being kneaded.]</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Bridget Delicious Chapats. All Rights Reserved.</p>
+            <p>Email: <a href="mailto:nabbonabridget50@gmail.com">nabbonabridget50@gmail.com</a></p>
+        </div>
+    </footer>
+</body>
+</html>
